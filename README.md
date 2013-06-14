@@ -1,3 +1,11 @@
+# OmniAuth 0.3.2 Support for Twitter API v1.1
+Twitter recently retired support for v1 of their API. This lets omniauth
+legacy v0.3.2 users keep using it.
+
+To install, add this to your Gemfile:
+
+    gem 'omniauth', :git => 'https://github.com/nahurst/omniauth.git'
+
 # OmniAuth: Standardized Multi-Provider Authentication
 OmniAuth is a new Rack-based authentication system for multi-provider external
 authentcation. OmniAuth is built from the ground up on the philosophy that
